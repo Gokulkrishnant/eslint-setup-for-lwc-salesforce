@@ -97,3 +97,18 @@ Create an `.eslintrc` file in the root of your project with the following conten
         "require-unicode-regexp": "error"
       }
 }
+```
+3. **Ensure LWC components are retrieved before running ESLint.**
+
+4. **To generate an HTML report, run this:**
+
+    ```bash
+    npx eslint . -f node_modules/eslint-html-reporter/reporter.js -o eslint-reportlatest_new.html
+    ```
+
+5. **To run ESLint locally, run this:**
+
+    ```bash
+    npx eslint .
+    ```
+
