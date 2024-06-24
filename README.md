@@ -2,6 +2,17 @@
 
 This guide will walk you through setting up ESLint for Lightning Web Components (LWC) in your project.
 
+## Introduction
+
+This repository provides a comprehensive guide to setting up ESLint for Lightning Web Components (LWC) in Salesforce projects. ESLint is a powerful tool that helps developers write clean, consistent, and error-free code. By following this guide, you will ensure that your LWC codebase adheres to best practices and is free from common mistakes.
+
+## Features
+
+- **Comprehensive ESLint Configuration:** Includes setup for ESLint, Babel, and relevant plugins for LWC.
+- **Salesforce-Specific Rules:** Leverages Salesforce's ESLint configurations to enforce best practices specific to LWC.
+- **HTML Reporting:** Generates detailed HTML reports for easy review of linting results.
+- **Jest Support:** Configured to recognize Jest globals, facilitating seamless testing integration.
+
 ## Prerequisites
 
 Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
