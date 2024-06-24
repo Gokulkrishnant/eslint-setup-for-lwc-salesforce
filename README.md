@@ -103,7 +103,7 @@ Create an `.eslintrc` file in the root of your project with the following conten
 4. **To generate an HTML report, run this:**
 
     ```bash
-    npx eslint . -f node_modules/eslint-html-reporter/reporter.js -o eslint-reportlatest_new.html
+    npx eslint . -f node_modules/eslint-html-reporter/reporter.js -o eslint-report.html
     ```
 
 5. **To run ESLint locally, run this:**
